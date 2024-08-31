@@ -20,10 +20,7 @@ export const OrderTable = () => {
         </thead>
         <tbody>
           <tr>
-            {data.map((item) => (
-              <td>{item.name}</td>
-                
-            ))}
+          
           </tr>
         </tbody>
       </table>
