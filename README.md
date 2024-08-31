@@ -96,3 +96,17 @@ Promises:  promise is a object which tells eventual completion or failure of a p
 
 Producing code : where we create a code of promise
 
+
+
+
+30-08-24:
+
+controlled components : react have control over the input states 
+
+Steps:
+
+1. Take the form in react component
+2. Take a states for each input in the form or single state for entire form 
+3.Provide value attribute for the input , assign the state that we created
+4. For the field cntrols, we have onChange attribute which accepts the function
+5. With in the function we can collect input value by event.target.value
