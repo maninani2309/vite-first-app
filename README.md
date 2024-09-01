@@ -96,8 +96,30 @@ Promises:  promise is a object which tells eventual completion or failure of a p
 
 Producing code : where we create a code of promise
 
+props:
+
+Props is an object , which shares the data or information from parent to children component
+Props are immutable (it cannot be change)
+
+Attribute : 
+1. Additional info to element
+<img src="" alt="" width="" height="">
+
+2. Additional info to components 
+
+Using the props we can customize the names
+Using the props we can control what needs to display in the user interface 
+for the props we can give any names
 
 
+Destructure:
+
+{
+    name:"mani",
+    score:99
+}
+
+const{name}=data
 
 30-08-24:
 

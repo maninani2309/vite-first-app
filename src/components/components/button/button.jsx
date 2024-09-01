@@ -1,11 +1,8 @@
-
-
-
-
-
-const CustomButton = ()=>{
-    const buttonText ="Click me"
+const CustomButton =()=>{
+    const buttonText="Click me" 
     return(
-        <button onClick={()=>{}}>Click me</button>
+        <button onClick={()=>{}} >{buttonText}</button>
     )
 }
+
+export default CustomButton

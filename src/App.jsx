@@ -1,8 +1,8 @@
 import { MainHead,Secondhead } from "./components/components/heading/headings.jsx"
 import CustomList from "./components/components/list/list.jsx"
 import { CustomOrderedList } from "./components/components/list/list.jsx"
-import { OrderTable } from "./components/components/table/table.jsx"
-
+// import { OrderTable } from "./components/components/table/table.jsx"
+// import CustomImage from "./components/components/image/image.jsx"
 
 
 
