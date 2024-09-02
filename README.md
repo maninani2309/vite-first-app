@@ -121,6 +121,17 @@ Destructure:
 
 const{name}=data
 
+Note : Props stands for properties
+
+## Using the props i can reuse the components
+
+Props are of 2 ways :
+
+1. general prop
+2. children prop
+
+Props can any datatype or it can be the function
+
 30-08-24:
 
 controlled components : react have control over the input states 
@@ -132,3 +143,45 @@ Steps:
 3.Provide value attribute for the input , assign the state that we created
 4. For the field cntrols, we have onChange attribute which accepts the function
 5. With in the function we can collect input value by event.target.value
+
+02-09-24:
+
+Useeeffect : useEffect is a react functional hook which is used to cause side effect with in the component.
+
+side effects : async actions - dom manipulation , event listeners, data fetching, third party subscriptions 
+
+useEffects is replacement of 3 lifr cycles methods in class components 
+1. componentdidMount
+2. componentDidUpdate
+3. componentWillUnmount
+
+Syntax : useEffect(()=>{},[])
+
+note : useeffect behaiour will depends on 2 arguments which is an array
+
+
+case 1: if array is empty , useEffect will behave like componentDidMout
+it will run only once in a life cycle 
+useEffect(()=>{},[])
+
+case 2: if array is filled with values , depending upon value changes useEffect will behave like a componentDidUpdate
+useEffect(()=>{},[value1,value2,....])
+if values were changing useEffect will re-runs
+
+this array will call it as the dependency array
+
+case 3: no dependency array
+
+ useEffect(()=>{})
+
+ if no dependency array , component will keep on re-rendering when ever state or prop changes
+
+ it might also leads to infinite rendering of component
+
+ case 4: If useEffect callback fnctions returns the function , with in the returned function we can preent memory leaks of the component - componentWillUnmount
+
+useEffect(()=>{
+    return()=>{
+        // prevent memory leaks
+    }
+})

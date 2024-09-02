@@ -3,6 +3,7 @@ import CustomList from "./components/components/list/list.jsx"
 import { CustomOrderedList } from "./components/components/list/list.jsx"
 // import { OrderTable } from "./components/components/table/table.jsx"
 // import CustomImage from "./components/components/image/image.jsx"
+import { receipeData } from "./data/receipes.js"
 
 
 
@@ -16,7 +17,10 @@ const App =()=>{
       <CustomOrderedList/>
       <CustomList></CustomList>
 
-      <OrderTable/>
+     
+
+      {
+       
 
     </div>
   )
