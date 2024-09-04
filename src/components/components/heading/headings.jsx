@@ -1,14 +1,16 @@
 
 
 
-export const MainHead =()=>{
+export const MainHead =(prop)=>{
+    const {heading} = prop
     return(
-        <h1>Welcome user</h1>
+        <h1>{heading}</h1>
     )
 }
 
-export const Secondhead =()=>{
+ const Secondhead =()=>{
     return(
         <h3>Welcome user</h3>
     )
 }
+export default Secondhead

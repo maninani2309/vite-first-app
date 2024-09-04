@@ -185,3 +185,21 @@ useEffect(()=>{
         // prevent memory leaks
     }
 })
+
+03-09-24:
+
+React - router - dom : To provide navigatiob in react app , we don't use anchor tags intsead we have a dedicated package or library called react-router-dom.
+
+npm i react-router-dom
+
+Types of naviggation :
+1. static navigation 
+2. dynamic navigation
+3. nested navigations
+
+
+1. Home screen
+2. About screen
+3. Setting Screen
+4. ContactScreen
+5. product detail screen

@@ -1,8 +1,8 @@
 export const receipeData =  [
     {
-      "id": 1,
-      "name": "Classic Margherita Pizza",
-      "ingredients": [
+        id: 1,
+      name: "Classic Margherita Pizza",
+      ingredients: [
         "Pizza dough",
         "Tomato sauce",
         "Fresh mozzarella cheese",
@@ -10,7 +10,7 @@ export const receipeData =  [
         "Olive oil",
         "Salt and pepper to taste"
       ],
-      "instructions": [
+      instructions: [
         "Preheat the oven to 475°F (245°C).",
         "Roll out the pizza dough and spread tomato sauce evenly.",
         "Top with slices of fresh mozzarella and fresh basil leaves.",
@@ -18,28 +18,28 @@ export const receipeData =  [
         "Bake in the preheated oven for 12-15 minutes or until the crust is golden brown.",
         "Slice and serve hot."
       ],
-      "prepTimeMinutes": 20,
-      "cookTimeMinutes": 15,
-      "servings": 4,
-      "difficulty": "Easy",
-      "cuisine": "Italian",
-      "caloriesPerServing": 300,
-      "tags": [
+      prepTimeMinutes: 20,
+      cookTimeMinutes: 15,
+      servings: 4,
+      difficulty: "Easy",
+      cuisine: "Italian",
+      caloriesPerServing: 300,
+      tags: [
         "Pizza",
         "Italian"
       ],
-      "userId": 166,
-      "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
-      "rating": 4.6,
-      "reviewCount": 98,
-      "mealType": [
+      userId: 166,
+      image: "https://cdn.dummyjson.com/recipe-images/1.webp",
+      rating: 4.6,
+      reviewCount: 98,
+      mealType: [
         "Dinner"
       ]
     },
     {
-      "id": 2,
-      "name": "Vegetarian Stir-Fry",
-      "ingredients": [
+        id: 2,
+        name: "Vegetarian Stir-Fry",
+        ingredients: [
         "Tofu, cubed",
         "Broccoli florets",
         "Carrots, sliced",
@@ -50,7 +50,7 @@ export const receipeData =  [
         "Sesame oil",
         "Cooked rice for serving"
       ],
-      "instructions": [
+      instructions: [
         "In a wok, heat sesame oil over medium-high heat.",
         "Add minced ginger and garlic, sauté until fragrant.",
         "Add cubed tofu and stir-fry until golden brown.",
@@ -58,29 +58,29 @@ export const receipeData =  [
         "Pour soy sauce over the stir-fry and toss to combine.",
         "Serve over cooked rice."
       ],
-      "prepTimeMinutes": 15,
-      "cookTimeMinutes": 20,
-      "servings": 3,
-      "difficulty": "Medium",
-      "cuisine": "Asian",
-      "caloriesPerServing": 250,
-      "tags": [
+      prepTimeMinutes: 15,
+      cookTimeMinutes: 20,
+      servings: 3,
+      difficulty: "Medium",
+      cuisine: "Asian",
+      caloriesPerServing: 250,
+      tags: [
         "Vegetarian",
         "Stir-fry",
         "Asian"
       ],
-      "userId": 143,
-      "image": "https://cdn.dummyjson.com/recipe-images/2.webp",
-      "rating": 4.7,
-      "reviewCount": 26,
-      "mealType": [
+      userId: 143,
+      image: "https://cdn.dummyjson.com/recipe-images/2.webp",
+      rating: 4.7,
+      reviewCount: 26,
+      mealType: [
         "Lunch"
       ]
     },
     {
-      "id": 3,
-      "name": "Chocolate Chip Cookies",
-      "ingredients": [
+        id: 3,
+        name: "Chocolate Chip Cookies",
+        ingredients: [
         "All-purpose flour",
         "Butter, softened",
         "Brown sugar",
@@ -91,7 +91,7 @@ export const receipeData =  [
         "Salt",
         "Chocolate chips"
       ],
-      "instructions": [
+      instructions: [
         "Preheat the oven to 350°F (175°C).",
         "In a bowl, cream together softened butter, brown sugar, and white sugar.",
         "Beat in eggs one at a time, then stir in vanilla extract.",
@@ -101,22 +101,22 @@ export const receipeData =  [
         "Bake for 10-12 minutes or until edges are golden brown.",
         "Allow cookies to cool on the baking sheet for a few minutes before transferring to a wire rack."
       ],
-      "prepTimeMinutes": 15,
-      "cookTimeMinutes": 10,
-      "servings": 24,
-      "difficulty": "Easy",
-      "cuisine": "American",
-      "caloriesPerServing": 150,
-      "tags": [
+      prepTimeMinutes: 15,
+      cookTimeMinutes: 10,
+      servings: 24,
+      difficulty: "Easy",
+      cuisine: "American",
+      caloriesPerServing: 150,
+      tags: [
         "Cookies",
         "Dessert",
         "Baking"
       ],
-      "userId": 34,
-      "image": "https://cdn.dummyjson.com/recipe-images/3.webp",
-      "rating": 4.9,
-      "reviewCount": 13,
-      "mealType": [
+      userId: 34,
+      image: "https://cdn.dummyjson.com/recipe-images/3.webp",
+      rating: 4.9,
+      reviewCount: 13,
+      mealType: [
         "Snack",
         "Dessert"
       ]

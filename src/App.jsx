@@ -1,30 +1,24 @@
-import { MainHead,Secondhead } from "./components/components/heading/headings.jsx"
-import CustomList from "./components/components/list/list.jsx"
-import { CustomOrderedList } from "./components/components/list/list.jsx"
-// import { OrderTable } from "./components/components/table/table.jsx"
-// import CustomImage from "./components/components/image/image.jsx"
-import { receipeData } from "./data/receipes.js"
+// import { MainHead } from "./components/components/heading/headings"
+import CustomImage from "./components/image/image"
+// import { receipeData } from "./data/receipes"
+// import { MainHead } from "./components/components/heading/headings"
 
 
 
-const App =()=>{
+
+const App = ()=>{
   return(
-    <div>
+    <>
+      <CustomImage  source ="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alternateText="bag" width={100} height={100}/>
+    
+      <CustomImage  source ="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alternateText="bag" width={150} height={100}/>
+    
+   
+</>
 
-    <MainHead/>
-    <Secondhead/>
-
-      <CustomOrderedList/>
-      <CustomList></CustomList>
-
-     
-
-      {
-       
-
-    </div>
   )
 }
+
 
 
 export default App
