@@ -18,24 +18,7 @@ export const CustomOrderedList = ()=>{
     )
 }
 
-const ListItems = ()=>{
-
-    const fruits =["apple","mango","kiwi","orange"]
-    return(
-        <>
-
-        {
-            fruits.map((eachFruit)=>{
-                return<li>{eachFruit}</li>
-            })
-        }
-            {/* <li>{listItems[0]}</li>
-            <li>{listItems[1]}</li> */}
-
-        </>
-    )
-}
-
+const ListItems = ["Apple","Banana","Mango"]
 
 
 
